@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.cookie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.cookie {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.cookie-counter {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.click-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.click-button:hover {
+  background-color: #3e8e41;
+}
+
+.upgrades {
+  margin-top: 20px;
+}
+
+.upgrades h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.upgrades ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.upgrades li {
+  margin-bottom: 10px;
+}
+
+.upgrades span {
+  font-size: 16px;
+}
+
+.upgrades button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.upgrades button:hover {
+  background-color: #3e8e41;
+}
